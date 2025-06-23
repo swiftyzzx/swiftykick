@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swiftyzzx | Kick Streamer</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px 80px;
+      background: radial-gradient(circle, #111 0%, #000 100%);
+      animation: fadeIn 1.5s ease-out forwards;
+    }
+
+    header h1 {
+      font-size: 3.5em;
+      margin-bottom: 0.3em;
+      color: #00ffcc;
+      text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    }
+
+    header p {
+      font-size: 1.3em;
+      color: #cccccc;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: slideUp 1s ease-out forwards;
+    }
+
+    .section:nth-child(odd) {
+      animation-delay: 0.5s;
+    }
+    .section:nth-child(even) {
+      animation-delay: 1s;
+    }
+
+    .section h2 {
+      font-size: 2.2em;
+      margin-bottom: 0.5em;
+      color: #00ff99;
+      text-shadow: 0 0 8px #00ff99;
+    }
+
+    .links {
+      margin-top: 20px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 22px;
+      background: #00ff99;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00ff99;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .links a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00ff99, 0 0 40px #00ff99;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #111;
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(1.05); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes slideUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2em;
+      }
+      .section h2 {
+        font-size: 1.7em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Swiftyzzx</h1>
+    <p>Live on Kick | Variety Streamer | Community Vibes</p>
+  </header>
+
+  <div class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm Swifty, a variety content creator streaming full-time on <strong>Kick</strong>. With over <strong>1,000+ followers</strong> and <strong>90+ average viewers</strong>,
+      my focus is on chill energy, fun content, and building a strong community.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Watch Me Live</h2>
+    <p>Click below to catch my latest stream and join the community!</p>
+    <div class="links">
+      <a href="https://kick.com/swiftyzzx" target="_blank">Visit Kick Channel</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Follow Me</h2>
+    <div class="links">
+      <a href="https://www.youtube.com/@swiftyau" target="_blank">YouTube</a>
+      <a href="https://x.com/swiftyfnt" target="_blank">Twitter/X</a>
+      <a href="https://www.twitch.tv/swiftyauu" target="_blank">Twitch</a>
+      <a href="https://www.tiktok.com/@swiftyfnt" target="_blank">TikTok</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Why I Deserve Verification</h2>
+    <p>
+      I meet all of Kick’s verification requirements and consistently create high-quality content. This site is here to professionally showcase my stream, brand, and growth, proving my commitment and potential on the platform.
+    </p>
+  </div>
+
+  <footer>
+    <p>© 2025 Swiftyzzx. Built with passion for the grind.</p>
+  </footer>
+</body>
+</html>
