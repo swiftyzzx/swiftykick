@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swiftyzzx | Kick Streamer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      
+    background: linear-gradient(-45deg, #0a0a0a, #1a001f, #330033, #0a0a0a);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 100px 20px 80px;
+      background: radial-gradient(circle, #111 0%, #000 100%);
+      animation: fadeIn 1.5s ease-out forwards;
+    }
+    header h1 {
+      font-size: 3.5em;
+      margin-bottom: 0.3em;
+      color: #ff69b4;
+      text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4;
+    }
+    header p {
+      font-size: 1.3em;
+      color: #e0e0e0;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: slideUp 1s ease-out forwards;
+    }
+    .section:nth-child(odd) { animation-delay: 0.5s; }
+    .section:nth-child(even) { animation-delay: 1s; }
+    .section h2 {
+      font-size: 2.2em;
+      margin-bottom: 0.5em;
+      color: #ff69b4;
+      text-shadow: 0 0 8px #ff69b4;
+    }
+    .links {
+      margin-top: 20px;
+    }
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 22px;
+      background: #ff69b4;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 0 10px #ff69b4;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .links a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ff69b4, 0 0 40px #ff69b4;
+    }
+    ul {
+      list-style: square;
+      margin-left: 20px;
+      line-height: 1.6;
+    }
+    strong {
+      color: #ff69b4;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #111;
+      color: #aaa;
+      font-size: 0.9em;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(1.05); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @keyframes slideUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2em; }
+      .section h2 { font-size: 1.7em; }
+    }
+  
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    </style>
+
+</head>
+<body>
+  <header>
+    <h1>Swiftyzzx</h1>
+    <p><strong>Live on Kick</strong> | Variety Streamer | <strong>Community Vibes</strong></p>
+  </header>
+
+  <div class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm <strong>Swifty</strong>, a dedicated streamer on <strong>Kick</strong> focused on <strong>chill</strong>, <strong>fun</strong>, and <strong>engaging variety content</strong>. 
+      I stream <strong>full-time</strong> and have built a loyal community with over <strong>1,000+ followers</strong> and <strong>90+ average viewers</strong>. 
+      Whether it's <strong>high-energy games</strong>, <strong>relaxing music</strong>, or <strong>viewer interaction</strong> — there's always a vibe.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Stream Schedule</h2>
+    <ul>
+      <li><strong>Monday – Friday:</strong> 6 PM – Late</li>
+      <li><strong>Saturday:</strong> Community streams / Giveaways</li>
+      <li><strong>Sunday:</strong> Chill & catch-up</li>
+    </ul>
+    <p>Follow my socials for exact <strong>go-live times</strong> or <strong>schedule changes</strong>.</p>
+  </div>
+
+  <div class="section">
+    <h2>Stream Highlights</h2>
+    <p>Check out some recent <strong>moments</strong> and <strong>clips</strong> from my streams:</p>
+    <div class="links">
+      <a href="https://www.youtube.com/@swiftyau" target="_blank">Best Moments – YouTube</a>
+      <a href="https://www.tiktok.com/@swiftyfnt" target="_blank">Funny Clips – TikTok</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Community Stats</h2>
+    <ul>
+      <li><strong>1,000+</strong> Kick followers</li>
+      <li><strong>90+ average viewers</strong> per stream</li>
+      <li><strong>30k+</strong> total channel views</li>
+      <li><strong>Daily growth</strong> & <strong>active chat engagement</strong></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Goals & Vision</h2>
+    <p>
+      My goal is to grow a space where people can <strong>hang out</strong>, <strong>have fun</strong>, and <strong>escape the noise</strong> of everyday life.
+      As a Kick creator, I aim to build <strong>content that connects</strong> with both <strong>casual</strong> and <strong>dedicated viewers</strong>.
+      I'm open to <strong>brand deals</strong> and <strong>collabs</strong> that fit my community vibe.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Follow Me</h2>
+    <div class="links">
+      <a href="https://kick.com/swiftyzzx" target="_blank">Kick</a>
+      <a href="https://www.youtube.com/@swiftyau" target="_blank">YouTube</a>
+      <a href="https://x.com/swiftyfnt" target="_blank">Twitter/X</a>
+      <a href="https://www.twitch.tv/swiftyauu" target="_blank">Twitch</a>
+      <a href="https://www.tiktok.com/@swiftyfnt" target="_blank">TikTok</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Why I Deserve Verification</h2>
+    <p>
+      I’ve met all of Kick’s <strong>verification requirements</strong>, stream <strong>consistently</strong>, and represent the platform in a <strong>positive</strong> and <strong>creative</strong> way.
+      This website showcases my <strong>activity</strong>, <strong>value</strong>, and <strong>branding</strong> to Kick and potential partners.
+    </p>
+  </div>
+
+  <footer>
+    <p>© 2025 <strong>Swiftyzzx</strong>. Built for the grind. Powered by passion.</p>
+  </footer>
+</body>
+</html>
